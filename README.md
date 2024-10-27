@@ -5,7 +5,7 @@
 ### Как запустить
 
 Клонирование репозитория:    
-'git clone https://github.com/Egrnorm/task_cicd-python-.git'  
+' git clone https://github.com/Egrnorm/task_cicd-python-.git '  
 Переход в загруженную папку  
 cd task_cicd-python-/  
   
