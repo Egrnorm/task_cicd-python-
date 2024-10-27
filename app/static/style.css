@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.button {
+  background-color: gray;
+  color: white;
+  border: 2px solid white;
+  padding: 5px 10px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+
+}
+
+.button:hover {
+  background-color: #505050; /* Темнее серого при наведении */
+}
+
+.button_main {
+  margin: 10px;
+  display: inline-block;
+  width: 140px;
+}
+
+
+
+.text {
+  color: gray;
+  border: 2px solid white;
+  padding: 20px;
+  display: inline-block;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+}
+
+.photo_anri {
+
+  background-image: url('image/Anri_Sonohara.png');
+
+}
+
+.photo_nodzomi {
+  background-image: url('image/nodzomi.jpg');
+}
+
+.image-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10vh;
+}
+
+.default-text {
+    color: white;
+}
+
+.main-logo {
+    background-image: url('image/dollars.svg');
+    background-size: 366px 366px;
+    background-repeat: no-repeat;
+    width: 366px;
+    height: 366px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-text {
+    text-align: center;
+    width: 25vh;
+    height: 40px;
+    padding: 10px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-bottom: 1vh;
+}
+
+
+.input-text:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 8px rgba(41, 128, 185, 0.5);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.href {
+    color: gray
+}
+
+.href:hover {
+    color: white;
+}
+
+.flash-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+.image-serega {
+    background-image: url('image/serega_pirat.jpg');
+    background-size: 366px 366px;
+    background-repeat: no-repeat;
+    width: 366px;
+    height: 366px;
+}
+
